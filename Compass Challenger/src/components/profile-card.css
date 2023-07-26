@@ -1,0 +1,31 @@
+.profile-picture {
+    border-radius: 100%;
+    border: 3px solid #ED2590;
+    padding: 3px;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+.profile-name {
+    color: #4B4B4B;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+}
+
+.profile-summary {
+    color: #4B4B4B;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 15px 0px;
+}

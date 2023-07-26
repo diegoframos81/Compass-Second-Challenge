@@ -1,4 +1,5 @@
 import './App.css'
+import Profile from './components/profile-card'
 import Friends from './components/friends-card'
 import Communities from './components/communities-card'
 import Navbar from './components/navbar'
@@ -10,6 +11,7 @@ const App: React.FC = () => {
   return (
 <Router>
     <Navbar />
+    <Profile />
     <Friends />
     <Communities />
     {/* // <>
