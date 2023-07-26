@@ -3,6 +3,7 @@ import Friends from './components/friends-card'
 import Navbar from './components/navbar'
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
+import UserProfile from './components/userProfile';
 
 const App: React.FC = () => {
 
@@ -10,6 +11,7 @@ const App: React.FC = () => {
 <Router>
     <Navbar />
     <Friends />
+    <UserProfile/>
     {/* // <>
     //   <div>
     //     <a href="https://vitejs.dev" target="_blank">

@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import logo from '../assets/logo-orkut.svg';
 import userImage from '../assets/iuricode 1.svg';
 import './navbar.css'
+import searchIcon from '../assets/MagnifyingGlass.svg'
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();
@@ -15,10 +16,13 @@ const Navbar: React.FC = () => {
         <span className="nav-link profile-link">Perfil</span>
         <span className="nav-link">Comunidades</span>
         <span className="nav-link">Jogos</span>
-        <input type="search" placeholder="Pesquisar no Orkut" className="search-bar"/>
+        <div className="search-bar-wrapper">
+          <img src={searchIcon} alt="Pesquisar" className="search-icon" />
+          <input type="search" placeholder="Pesquisar no Orkut" className="search-bar"/>
+        </div>
         <div className="user-profile">
-          <img src={userImage} alt="Usuário" width="40" height="40" />
-          <span className="user-name">Nome do Usuário</span>
+          <img src={userImage} alt="Usuário" width="20" height="20" />
+          <span className="user-name">Iuri Silva</span>
           <i className="arrow-down"></i>
         </div>
       </div>
