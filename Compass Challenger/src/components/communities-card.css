@@ -23,7 +23,7 @@
     line-height: 24px;
 }
 
-.card-body-friends {
+.card-body-communities {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -32,13 +32,13 @@
     height: 100%;
 }
 
-.friends-row {
+.communities-row {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.friends-thumb-container {
+.communities-thumb-container {
     display: flex;
     width: fit-content;
     height: 80px;
@@ -46,7 +46,7 @@
     align-items: center;
 }
 
-.friends-thumb-container span {
+.communities-thumb-container span {
     color: #4B4B4B;
     font-family: SF Pro Display;
     font-size: 14px;
@@ -56,9 +56,9 @@
     text-align-last: center;
 }
 
-.friend-tumb {
+.community-tumb {
     height: 56px;
     width: 56px;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 12px;
 }

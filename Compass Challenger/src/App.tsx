@@ -1,5 +1,6 @@
 import './App.css'
 import Friends from './components/friends-card'
+import Communities from './components/communities-card'
 import Navbar from './components/navbar'
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -10,6 +11,7 @@ const App: React.FC = () => {
 <Router>
     <Navbar />
     <Friends />
+    <Communities />
     {/* // <>
     //   <div>
     //     <a href="https://vitejs.dev" target="_blank">
