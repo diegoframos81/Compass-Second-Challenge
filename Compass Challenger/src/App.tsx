@@ -1,5 +1,6 @@
 import './App.css'
 import Profile from './components/profile-card'
+import EditProfileButton from './components/edit-profile-button'
 import Friends from './components/friends-card'
 import Communities from './components/communities-card'
 import Navbar from './components/navbar'
@@ -12,6 +13,7 @@ const App: React.FC = () => {
 <Router>
     <Navbar />
     <Profile />
+    <EditProfileButton />
     <Friends />
     <Communities />
     {/* // <>
