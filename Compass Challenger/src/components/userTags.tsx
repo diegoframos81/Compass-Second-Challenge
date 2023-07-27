@@ -12,7 +12,7 @@ const UserTags: React.FC = () => {
         <li>
           <span>Fãs</span>
           <div className="tag-content">
-            <img src={star} alt="Fãs" />
+            <img src={star} alt="Fãs" /><span>85</span>
           </div>
         </li>
         <li>

@@ -10,12 +10,14 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar">
-      <div className="nav-group">
+      <div className="nav-group-left">
         <img className='img-nav' src={logo} alt="Logo" onClick={() => navigate('/')}/>
         <span className="nav-link">Início</span>
         <span className="nav-link profile-link">Perfil</span>
         <span className="nav-link">Comunidades</span>
         <span className="nav-link">Jogos</span>
+      </div>
+      <div className="nav-group-right">
         <div className="search-bar-wrapper">
           <img src={searchIcon} alt="Pesquisar" className="search-icon" />
           <input type="search" placeholder="Pesquisar no Orkut" className="search-bar"/>

@@ -1,16 +1,30 @@
 .navbar {
-  display: flex;
-  justify-content:space-around;
-  background: #FDFEFF;
+  display: grid;
+  grid-template-columns: 2fr 500px 2fr;
+  background: #fdfeff;
   width: auto;
   height: 92px;
   flex-shrink: 0;
-  color: #4B4B4B;
+  color: #4b4b4b;
   font-family: SF Pro Display;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+
+.nav-group-left {
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-group-right {
+  grid-column: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .img-nav {
@@ -27,19 +41,22 @@
 
 .nav-link {
   margin-right: 10px;
-  padding: 20px;
+  padding: 0;
 }
 
 .profile-link {
-  color: #ED2590;
+  color: #ed2590;
 }
 
 .search-bar-wrapper {
   display: flex;
   align-items: center;
-  background-color: #EFF3F8;
-  border-radius: 8px;
   padding: 8px;
+  width: 355px;
+  height: 43.959px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #eff3f8;
 }
 
 .search-icon {
@@ -58,7 +75,7 @@
 }
 
 .search-bar:focus {
-  background-color: #EFF3F8;
+  background-color: #eff3f8;
   color: #000;
 }
 
@@ -74,11 +91,11 @@
 }
 
 .arrow-down {
-  border: solid black;
+  border: solid #ed2590;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
-  margin-left: 5px;
+  margin-left: 12px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }

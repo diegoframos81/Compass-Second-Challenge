@@ -6,6 +6,7 @@
     border-radius: 16px;
     flex-direction: column;
     padding: 24px;
+    margin: auto;
 }
 
 .card-inner {

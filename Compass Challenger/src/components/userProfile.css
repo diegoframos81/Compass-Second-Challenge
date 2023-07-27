@@ -1,7 +1,6 @@
 .user-profile-container {
     display: flex;
-    justify-content: center;
-    margin-top: 40px; 
+    justify-content: space-around;
   }
   
   .user-profile-box {
@@ -9,7 +8,6 @@
     height: 854px;
     flex-shrink: 0;
     background-color: #FDFEFF;
-    border: 1px solid #ccc;
     border-radius: 16px;
     padding: 20px;
     text-align: left;

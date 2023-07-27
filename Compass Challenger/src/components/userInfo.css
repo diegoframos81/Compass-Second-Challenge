@@ -1,0 +1,20 @@
+.bordered-word {
+  border-radius: 30px;
+  border: 1px solid #ed2590;
+  display: inline-flex;
+  padding: 2px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 16px;
+}
+
+.ver-todos {
+  color: #ed2590;
+  color: #ed2590;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
