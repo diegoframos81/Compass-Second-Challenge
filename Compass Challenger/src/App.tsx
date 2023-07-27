@@ -1,5 +1,8 @@
 import './App.css'
+import Profile from './components/profile-card'
+import EditProfileButton from './components/edit-profile-button'
 import Friends from './components/friends-card'
+import Communities from './components/communities-card'
 import Navbar from './components/navbar'
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -10,8 +13,10 @@ const App: React.FC = () => {
   return (
 <Router>
     <Navbar />
+    <Profile />
+    <EditProfileButton />
     <Friends />
-    <UserProfile/>
+    <Communities />
     {/* // <>
     //   <div>
     //     <a href="https://vitejs.dev" target="_blank">
