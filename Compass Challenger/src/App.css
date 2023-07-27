@@ -1,14 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 .container {
   display: grid;
   grid-template-columns: 3fr 1fr 3fr;
   column-gap: 1px;
   row-gap: 1px;
-}
-  
-.navbar {
-  grid-column: 1 / -1; 
-  position: sticky; 
-  top: 0; 
 }
 
 .spacer {
