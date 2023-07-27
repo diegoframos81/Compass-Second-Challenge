@@ -8,7 +8,7 @@
 .card-header span:first-child {
     color: #4B4B4B;
     font-family: SF Pro Display;
-    font-size: 16px;
+    font-size: var(--font-small);
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -17,7 +17,7 @@
 .card-header span:last-child {
     color: #ED2590;
     font-family: SF Pro Display;
-    font-size: 14px;
+    font-size: var(--font-smallest);
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -50,7 +50,7 @@
 .friends-thumb-container span {
     color: #4B4B4B;
     font-family: SF Pro Display;
-    font-size: 14px;
+    font-size: var(--font-smallest);
     font-style: normal;
     font-weight: 400;
     line-height: normal;

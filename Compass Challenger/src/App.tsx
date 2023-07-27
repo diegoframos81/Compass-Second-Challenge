@@ -13,27 +13,27 @@ const App: React.FC = () => {
   return (
     <Router>
       <Navbar />
-      <div className="spacer"></div>
-      <div className="container">
-        <div className="profile-section">
-          <Profile />
-          <div className="spaced-component">
+      <div className="body-container">
+        <div className="body-content">
+
+          <div className="profile-section">
+            <Profile />
             <EditProfileButton />
           </div>
-        </div>
-        <div className="user-profile-section">
-          <UserProfile/>
-        </div>
-        <div className="friends-communities-section">
-          <Friends />
-          <div className="spaced-component">
+
+          <div className="profile-section">
+            <UserProfile />
+          </div>
+
+          <div className="profile-section">
+            <Friends />
             <Communities />
           </div>
+
         </div>
       </div>
     </Router>
   )
-}
-;
+};
 
 export default App;

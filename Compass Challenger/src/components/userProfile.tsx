@@ -8,7 +8,7 @@ const UserProfile: React.FC = () => {
     <div className="user-profile-container">
       <div className="user-profile-box">
         <div className="user-info">
-          <h2>Boa tarde, Iuri Silva</h2>
+          <span className='welcome-text'>Boa tarde, Iuri Silva</span>
           <div className="balloon-box">Programar sem café é igual poeta sem poesia.</div>
         </div>
         <UserTags/>

@@ -1,12 +1,18 @@
 :root {
-    font-family: SF Pro Display;
-    line-height: 1.5;
-    font-weight: 400;
-    background-color: #D9E6F7;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-  }
-  
+  font-family: SF Pro Display;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #D9E6F7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /*Original fonts: 14px, 16px, 18px, 24px, 26px*/
+  --font-smallest: 0.7rem;
+  --font-small: 0.9rem;
+  --font-medium: 1.1rem;
+  --font-large: 1.3rem;
+  --font-largest: 1.7rem;
+}

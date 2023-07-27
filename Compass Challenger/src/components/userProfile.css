@@ -1,43 +1,45 @@
 .user-profile-container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .user-profile-box {
-    width: 592px;
-    height: 854px;
-    flex-shrink: 0;
-    background-color: #FDFEFF;
-    border-radius: 16px;
-    padding: 20px;
-    text-align: left;
-    color: #4B4B4B;
-    font-family: SF Pro Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+  display: flex;
+  justify-content: space-around;
+}
 
-  
-  .user-info-all {
-    text-align: left;
-    color: #B4AEAE;
-    font-family: SF Pro Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+.user-profile-box {
+  width: 592px;
+  height: 854px;
+  flex-shrink: 0;
+  background-color: #FDFEFF;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: left;
+  color: #4B4B4B;
+  font-family: SF Pro Display;
+}
 
-  .user-value {
-    color: #4B4B4B;
-    font-family: SF Pro Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+.welcome-text {
+  font-size: var(--font-largest);
+  color: #4B4B4B;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.user-info-all {
+  text-align: left;
+  color: #B4AEAE;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.user-value {
+  color: #4B4B4B;
+  font-family: SF Pro Display;
+  font-size: var(--font-small);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 .user-info .balloon-box {
   background-color: #EFF3F8;
@@ -47,8 +49,10 @@
   margin-top: 10px;
   word-wrap: break-word;
   margin-bottom: 24px;
+  font-size: var(--font-small);
 }
 
-.user-info-all > div {
+.user-info-all>div {
   margin-bottom: 24px;
+  font-size: var(--font-small);
 }

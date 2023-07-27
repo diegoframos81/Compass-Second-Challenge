@@ -11,7 +11,7 @@
 .profile-name {
     color: #4B4B4B;
     font-family: SF Pro Display;
-    font-size: 24px;
+    font-size: var(--font-large);
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -22,7 +22,7 @@
 .profile-summary {
     color: #4B4B4B;
     font-family: SF Pro Display;
-    font-size: 18px;
+    font-size: var(--font-medium);
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
