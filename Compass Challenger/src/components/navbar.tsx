@@ -14,25 +14,25 @@ const Navbar: React.FC = () => {
         <div className='navbar-content'>
           <div className="nav-group-left">
             <img className='img-nav' src={logo} alt="Logo" onClick={() => navigate('/')} />
-            <span className="nav-link">Início</span>
-            <span className="nav-link profile-link">Perfil</span>
-            <span className="nav-link">Comunidades</span>
-            <span className="nav-link">Jogos</span>
+            <span className="nav-link desktop-only">Início</span>
+            <span className="nav-link desktop-only profile-link">Perfil</span>
+            <span className="nav-link desktop-only">Comunidades</span>
+            <span className="nav-link desktop-only">Jogos</span>
           </div>
           <div className="nav-group-right">
-            <div className="search-bar-wrapper">
+            <div className="search-bar-desktop-wrapper desktop-only">
               <img src={searchIcon} alt="Pesquisar" className="search-icon" />
               <input type="search" placeholder="Pesquisar no Orkut" className="search-bar" />
             </div>
             <div className="user-profile">
-              <img src={userImage} alt="Usuário" width="20" height="20" />
-              <span className="user-name">Iuri Silva</span>
-              <i className="arrow-down"></i>
+              <img src={userImage} alt="Usuário" className="user-profile-img" />
+              <span className="user-name desktop-only">Iuri Silva</span>
+              <i className="arrow-down desktop-only"></i>
             </div>
           </div>
         </div>
       </nav>
-      <div className="search-bar-mobile-wrapper">
+      <div className="search-bar-mobile-wrapper mobile-only">
         <img src={searchIcon} alt="Pesquisar" className="search-icon" />
         <input type="search" placeholder="Pesquisar no Orkut" className="search-bar" />
       </div>
