@@ -1,4 +1,4 @@
-import React, {FormEvent } from 'react'
+import React, {FormEvent, useState } from 'react'
 
 //images
 import login_image from '../../assets/login-image.svg'
@@ -9,6 +9,12 @@ import ps_orkut from '../../assets/ps_orkut.svg'
 import Styles from '../MainRegister/Main.module.css'
 
 const Main:React.FC = () => {
+
+  const [inputType, setInputType] = useState<'text'|'date'>('text')
+
+  const handleFocus = () => {
+    setInputType('date');
+  }
   
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -28,30 +34,66 @@ const Main:React.FC = () => {
         usando recados e mensagens instantâneas</p>
 
         <form onSubmit={handleSubmit} className={Styles.form1}>
+
             <img src={ps_orkut} alt="ps_orkut" />
             <h2>Criar conta</h2>
+
             <div className={Styles.nameInput}>
-              <label htmlFor="name"></label>
-              <input type="text" placeholder="Nome" id="name"/>
+              <input 
+                type="text" 
+                placeholder="Nome" 
+                id="name" 
+                minLength={2}
+                required
+              />
             </div>
 
-            <label htmlFor="email"></label>
-            <input type="text" placeholder="E-mail" id="email"/>
+            <input 
+              type="text" 
+              placeholder="E-mail" 
+              id="email" 
+              required
+            />
 
-            <label htmlFor="birthDate"></label>
-            <input type="date" id="birthDate" />
+            <div className={Styles.form1_birthdate}>
+              <input 
+                type={inputType} 
+                onFocus={handleFocus} 
+                placeholder="Data de nascimento" 
+                id="birthDate"
+                required
+              />
+            </div>
 
-            <label htmlFor="city"></label>
-            <input type="text" placeholder="Cidade" id="city"/>
+            <input 
+              type="text" 
+              placeholder="Cidade" 
+              id="city" 
+              required
+            />
 
-            <label htmlFor="state"></label>
-            <input type="text" placeholder="Estado" id="state"/>
+            <input 
+              type="text" 
+              placeholder="Estado" 
+              id="state" 
+              required
+            />
             
-            <label htmlFor="password"></label>
-            <input type="password" placeholder="Senha" id="password"/>
+            <input 
+              type="password" 
+              placeholder="Senha" 
+              id="password" 
+              minLength={5}
+              maxLength={15}
+              required
+            />
 
-            <label htmlFor="confirmPassword"></label>
-            <input type="password" placeholder="Confirmar senha" id="confirmPassword"/>
+            <input 
+              type="password" 
+              placeholder="Confirmar senha" 
+              id="confirmPassword" 
+              required
+            />
 
             <input type="submit" value="Criar conta"/>
         </form>
