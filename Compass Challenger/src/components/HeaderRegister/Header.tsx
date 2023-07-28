@@ -1,5 +1,7 @@
-import React from 'react'
-import logo from '../assets/logo-orkut.svg'
+//image
+import logo from '../../assets/logo-orkut.svg'
+
+//CSS
 import Styles from './Header.module.css'
 
 const Header = () => {

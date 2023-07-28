@@ -2,16 +2,24 @@
 import './App.css'
 
 // components
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
+import Header from './components/HeaderRegister/Header'
+import Footer from './components/FooterRegister/Footer'
+import Main from './components/MainRegister/Main'
+import Step2 from './components/MainRegister/Step2'
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Main/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/step2" element={<Step2 />} />
+        </Routes>
+      </BrowserRouter>
       <Footer/>
     </>
   )

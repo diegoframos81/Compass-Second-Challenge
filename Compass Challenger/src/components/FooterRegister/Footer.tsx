@@ -1,5 +1,3 @@
-import React from 'react'
-
 // CSS
 import Styles from './Footer.module.css'
 
