@@ -12,8 +12,8 @@ export const App = () =>{
   
   return (
     <>
-      <HeaderLogin />
-      <MainLogin />
+        <HeaderLogin />
+          <MainLogin />
         <Footer />
 
     </>
