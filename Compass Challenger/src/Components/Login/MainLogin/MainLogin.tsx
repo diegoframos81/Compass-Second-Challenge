@@ -3,10 +3,10 @@ import React, { ReactElement } from 'react';
 import ImageLogin from '/Orkut Project/Compass Challenger/src/assets/imageform.svg'
 import LogoIcon from "/Orkut Project/Compass Challenger/src/assets/ps_orkut.svg"
 import Bg from "/Orkut Project/Compass Challenger/src/assets/bg.svg"
-import Style from "../MainLogin/Forms.module.css"
+import Style from "../MainLogin/index.module.css"
 
 
-export const LoginForm: React.FC = (): ReactElement => {
+export const MainLogin: React.FC = (): ReactElement => {
     return (
         <>
             <main className={Style.main}>
@@ -31,13 +31,13 @@ export const LoginForm: React.FC = (): ReactElement => {
                     <input type="password" placeholder="Senha" id="password" />
 
                     <div className={Style.passwordCheck}>
-                        <input type="checkbox" className={Style.inputCheckbox}/>
-                        <span className={Style.spanCheck}>Lembrar minha senha</span>
+                        <input type="checkbox" name="remember-password" className={Style.inputCheckbox}/>
+                        <label className={Style.spanCheck} htmlFor="remember-password">Lembrar minha senha</label>
                     </div>
 
-                    <button className={Style.button}>Entrar na conta</button>
-                    <button className={Style.button}>Criar uma conta</button>
-                    <a>Esqueci a minha senha</a>
+                    <button className={Style.buttonFirstChild}>Entrar na conta</button>
+                    <button className={Style.buttonSecondChild}>Criar uma conta</button>
+                    <a className={Style.passwordForgot}>Esqueci a minha senha</a>
                 </form>
             </main>
         </>

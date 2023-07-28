@@ -1,18 +1,21 @@
 
-import { HeaderLogin } from '../Components/HeaderLogin/HeaderLogin'
-import { LoginForm } from '../Components/MainLogin/LoginForm'
+
 // import './App.css'
+
+
+import { Footer } from "../Components/Login/FooterLogin/Footer"
+import { HeaderLogin } from "../Components/Login/HeaderLogin/HeaderLogin"
+import { MainLogin } from "../Components/Login/MainLogin/MainLogin"
 
 export const App = () =>{
   
   
   return (
     <>
-    <HeaderLogin />
-      
-          <LoginForm />
+      <HeaderLogin />
+      <MainLogin />
+        <Footer />
 
     </>
-  )
+    )
 }
-
