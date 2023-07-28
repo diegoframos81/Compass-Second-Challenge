@@ -2,35 +2,35 @@ import React from 'react';
 import './userInfo.css';
 
 interface UserInfoProps {
-    label: string;
-    value: string;
-  }
-  
-  const UserInfoField: React.FC<UserInfoProps> = ({ label, value }) => {
-    if (label === "Músicas" || label === "Filmes") {
-      const phrases = value.split(/(Ver todos|A rede social|Meu amigo Totoro)|\s/).filter(Boolean);
-      return (
-        <div>
-          <label>{label}: </label>
-          <span className="user-value">
-            {phrases.map((phrase, index) => (
-              phrase === "Ver todos" ?
+  label: string;
+  value: string;
+}
+
+const UserInfoField: React.FC<UserInfoProps> = ({ label, value }) => {
+  if (label === "Músicas" || label === "Filmes") {
+    const phrases = value.split(/(Ver todos|A rede social|Meu amigo Totoro)|\s/).filter(Boolean);
+    return (
+      <div>
+        <label>{label}: </label>
+        <span className="user-value">
+          {phrases.map((phrase, index) => (
+            phrase === "Ver todos" ?
               <span key={index} className="ver-todos">{phrase}</span>
               :
               <span key={index} className="bordered-word">{phrase}</span>
-            ))}
-          </span>
-        </div>
-      );
-    } else {
-      return (
-        <div>
-          <label>{label}: </label>
-          <span className="user-value">{value}</span>
-        </div>
-      );
-    }
-  };  
+          ))}
+        </span>
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        <label>{label}: </label>
+        <span className="user-value">{value}</span>
+      </div>
+    );
+  }
+};
 
 // const UserInfoEditableField: React.FC<UserInfoProps> = ({ label, value }) => (
 //   <div>

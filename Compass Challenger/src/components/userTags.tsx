@@ -8,7 +8,7 @@ import './userTags.css';
 const UserTags: React.FC = () => {
   return (
     <div className="user-tags">
-      <ul>
+      <ul className='user-tags-items'>
         <li>
           <span>Fãs</span>
           <div className="tag-content">

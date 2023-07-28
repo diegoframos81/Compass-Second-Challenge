@@ -38,3 +38,41 @@
 .right-section {
   width: 23%;
 }
+
+@media screen and (max-width: 1279px) {
+
+  .body-content {
+    flex-direction: column;
+    width: 100%;
+    gap: 2.3rem;
+  }
+
+  .profile-section {
+    align-self: center;
+    padding: 0rem 2rem;
+  }
+
+  .left-section {
+    width: 100%;
+  }
+
+  .center-section {
+    width: 100%;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+
+  .user-value .bordered-word:nth-child(2){
+    display: none;
+  }
+
+  .user-value .bordered-word:nth-child(3) {
+    display: none;
+  }
+
+  .user-tags-items {
+    flex-wrap: wrap;
+  }
+}
