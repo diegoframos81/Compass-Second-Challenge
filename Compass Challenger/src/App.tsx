@@ -16,16 +16,16 @@ const App: React.FC = () => {
       <div className="body-container">
         <div className="body-content">
 
-          <div className="profile-section">
+          <div className="profile-section left-section">
             <Profile />
             <EditProfileButton />
           </div>
 
-          <div className="profile-section">
+          <div className="profile-section center-section">
             <UserProfile />
           </div>
 
-          <div className="profile-section">
+          <div className="profile-section right-section">
             <Friends />
             <Communities />
           </div>

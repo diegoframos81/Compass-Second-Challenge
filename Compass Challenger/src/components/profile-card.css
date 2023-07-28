@@ -3,9 +3,10 @@
     border: 3px solid #ED2590;
     padding: 3px;
     object-fit: cover;
-    height: 200px;
-    width: 200px;
+    height: 25%;
+    width: 80%;
     align-self: center;
+    aspect-ratio: 1 / 1;
 }
 
 .profile-name {

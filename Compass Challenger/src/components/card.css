@@ -1,12 +1,10 @@
 .card-outer {
-    background: #FDFEFF;;
-    /* height: 435px; */
-    width: 297px;
+    background: #FDFEFF;
+    width: 100%;
     display: flex;
     border-radius: 16px;
     flex-direction: column;
     padding: 24px;
-    margin: auto;
 }
 
 .card-inner {

@@ -8,6 +8,7 @@
   display: flex;
   width: 100%;
   padding-top: 80px;
+  padding-bottom: 60px;
   justify-content: center;
 }
 
@@ -24,4 +25,16 @@
   flex-direction: column;
   align-self: flex-start;
   gap: 25px;
+}
+
+.left-section {
+  width: 23%;
+}
+
+.center-section {
+  width: 51%;
+}
+
+.right-section {
+  width: 23%;
 }
