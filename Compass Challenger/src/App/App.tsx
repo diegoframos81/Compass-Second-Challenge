@@ -21,10 +21,6 @@ export const App = () =>{
         <Route path="/" element={<MainLogin />}/>
         <Route path="/Register" element={<Main />}/>
       </Routes>
-        <HeaderLogin />
-          <MainLogin />
-        <Footer />
-
     </>
     )
 }
