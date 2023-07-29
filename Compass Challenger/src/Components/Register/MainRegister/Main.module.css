@@ -1,0 +1,211 @@
+/* Style of main page */
+
+.main {
+    display: flex;
+    background: #D9E6F7;
+    max-width: 100%;
+    height: 1040px;
+}
+
+.main img {
+    width: 800px;
+    height: 598px;
+    flex-shrink: 0; 
+    margin-top: 150px;
+    margin-left: 430px; 
+    z-index: 1;
+}
+
+.bg_image {
+    position: absolute;
+    z-index: 1;
+}
+
+.main p {
+    position: absolute;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    z-index: 1;
+    margin-top: 640px;
+    margin-left: 470px;
+}
+
+/* Style of form1 */
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 430px;
+    height: 770px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FDFEFF;
+    margin-top: 150px;
+    margin-left: 50px;
+    gap: 8px;
+}
+
+.form1 img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.form1 h2 {
+    color: #ED2590;
+    font-family: SF Pro Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+ .form1 input{
+    width: 370px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-color: transparent;
+    background: #EFF3F8;
+    color: #868686;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: text;
+ }
+
+ .form1 input[type='submit'] {
+    width: 370px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #ED2590;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 22px;
+    border: none;
+    cursor: pointer;
+ }
+
+ .form1 input[type='submit']:hover {
+    border: 2px solid #ED2590;
+    background-color: #FFF;
+    color: #ED2590;
+}
+
+ .nameInput {
+    margin-top: 15px;
+ }
+ 
+ .form1 input::placeholder {
+    padding: 15px;
+ }
+
+ /* Style of form2 */
+
+ .form2 {
+    width: 600px;
+    height: 850px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FDFEFF;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.form_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form2 img {
+    
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.form2 h2 {
+    text-align: center;
+    color: #ED2590;
+    font-family: SF Pro Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.form2_profile_picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #868686;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form2_profile_picture img {
+    width: 70px;
+    height: 70px;
+}
+
+.form2_container {
+    display: flex;
+    flex-direction: column;
+    color: #868686;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.form2_container div {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.form2 input[type='submit'] {
+    width: 370px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #ED2590;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 22px;
+    border: none;
+    cursor: pointer;
+ }
+
+.form2 input[type='submit']:hover {
+    border: 2px solid #ED2590;
+    background-color: #FFF;
+    color: #ED2590;
+}
