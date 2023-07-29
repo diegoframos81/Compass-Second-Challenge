@@ -4,6 +4,8 @@
   ],
   "hints": {
     "disown-opener": "off",
-    "compat-api/css": "off"
+    "compat-api/css": "off",
+    "typescript-config/is-valid": "off",
+    "axe/forms": "off"
   }
 }
