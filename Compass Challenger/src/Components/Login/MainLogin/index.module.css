@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url(SFPRO.ttf);
+}
+
+.main {
+    display: flex;
+    background: #D9E6F7;
+    min-width: 100%;
+    height: 75rem;
+    font-family: SF Pro Display, sans-serif;
+}
+
+.main img {
+    width: 55em;
+    height: 45.5em;
+    flex-shrink: 0;
+    margin-top: 150px;
+    margin-left: 19em;
+    z-index: 1;
+}
+
+.bg_image {
+    position: absolute;
+    z-index: 1;
+}
+
+.main p {
+    position: absolute;
+    color: #FFF;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    z-index: 1;
+    margin-top: 18em;
+    margin-left: 8.5em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28em;
+    height: 41.2em;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FDFEFF;
+    margin-top: 182px;
+    margin-left: 49px;
+    gap: 10px;
+}
+
+.form img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.form h2 {
+    color: #ED2590;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.form input {
+    width: 19em;
+    height: 3em;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: #EFF3F8;
+    color: #868686;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: text;
+}
+
+.form .passwordCheck{
+    
+    width: 23em;
+    height: 2em;
+    margin-top: 1em;
+    display: inline-flex;
+}
+.form .spanCheck {
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    
+
+    
+}
+
+.form .inputCheckbox {
+    background: #eff3f8;
+    
+    cursor: pointer;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 1px;
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+
+}
+
+
+
+.form .buttonFirstChild {
+    width: 19em;
+    height: 3em;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #ED2590;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 22px;
+    border: none;
+}
+
+.form .buttonSecondChild {
+    width: 19em;
+    height: 3em;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #EFF3F8;
+    color: #ED2590;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 22px;
+    border: none;
+}
+
+.form .passwordForgot {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ED2590;
+    text-decoration: underline;
+}
+
+.form input::placeholder {
+    padding: 15px;
+}
+
