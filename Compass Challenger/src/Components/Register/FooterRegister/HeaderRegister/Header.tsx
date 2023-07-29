@@ -1,5 +1,5 @@
 //image
-import logo from '../../assets/logo-orkut.svg'
+import logo from '/Orkut Project/Compass Challenger/src/assets/logo-orkut.svg'
 
 //CSS
 import Styles from './Header.module.css'

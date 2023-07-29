@@ -1,14 +1,22 @@
 import React, { ReactElement } from 'react';
 
+import { HeaderLogin } from "../HeaderLogin/HeaderLogin"
+import { FooterLogin } from "../FooterLogin/FooterLogin"
+
+
 import ImageLogin from '/Orkut Project/Compass Challenger/src/assets/imageform.svg'
 import LogoIcon from "/Orkut Project/Compass Challenger/src/assets/ps_orkut.svg"
 import Bg from "/Orkut Project/Compass Challenger/src/assets/bg.svg"
 import Style from "../MainLogin/index.module.css"
+import { useNavigate } from 'react-router-dom';
 
 
 export const MainLogin: React.FC = (): ReactElement => {
+
+    const navigate = useNavigate();
     return (
         <>
+        <HeaderLogin />
             <main className={Style.main}>
                 <img src={ImageLogin} alt="Orkut" />
                 <div className={Style.bg_image}>
@@ -36,10 +44,14 @@ export const MainLogin: React.FC = (): ReactElement => {
                     </div>
 
                     <button className={Style.buttonFirstChild}>Entrar na conta</button>
-                    <button className={Style.buttonSecondChild}>Criar uma conta</button>
+                    <button onClick={() =>navigate("/Register")} className={Style.buttonSecondChild}>Criar uma conta</button>
                     <a className={Style.passwordForgot}>Esqueci a minha senha</a>
                 </form>
             </main>
+            <FooterLogin />
+            {/* Router */}
+
+            
         </>
     );
 };
