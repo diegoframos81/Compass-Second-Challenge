@@ -1,14 +1,14 @@
 import Card from "./card";
-import "./communities-card.css";
-import photo1 from "../assets/communities-pictures/community-pic (1).jpg";
-import photo2 from "../assets/communities-pictures/community-pic (2).jpg";
-import photo3 from "../assets/communities-pictures/community-pic (3).jpg";
-import photo4 from "../assets/communities-pictures/community-pic (4).jpg";
-import photo5 from "../assets/communities-pictures/community-pic (5).jpg";
-import photo6 from "../assets/communities-pictures/community-pic (6).jpg";
-import photo7 from "../assets/communities-pictures/community-pic (7).jpg";
-import photo8 from "../assets/communities-pictures/community-pic (8).jpg";
-import photo9 from "../assets/communities-pictures/community-pic (9).jpg";
+import "../footerProfileCss/communities-card.css";
+import photo1 from "../../assets/communities-pictures/community-pic (1).jpg";
+import photo2 from "../../assets/communities-pictures/community-pic (2).jpg";
+import photo3 from "../../assets/communities-pictures/community-pic (3).jpg";
+import photo4 from "../../assets/communities-pictures/community-pic (4).jpg";
+import photo5 from "../../assets/communities-pictures/community-pic (5).jpg";
+import photo6 from "../../assets/communities-pictures/community-pic (6).jpg";
+import photo7 from "../../assets/communities-pictures/community-pic (7).jpg";
+import photo8 from "../../assets/communities-pictures/community-pic (8).jpg";
+import photo9 from "../../assets/communities-pictures/community-pic (9).jpg";
 
 const Communities: React.FC = () => {
     return (

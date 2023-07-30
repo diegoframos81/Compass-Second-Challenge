@@ -1,0 +1,41 @@
+.edit-profile-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.edit-profile-container div {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.edit-profile-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.edit-profile-container input,
+.edit-profile-container select {
+  border-radius: 30px;
+  border: 1px solid #ed2590;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 80%;
+}
+
+.edit-profile-container select {
+  width: 82%;
+}
+
+.edit-profile-container button {
+  border-radius: 30px;
+  border: none;
+  background-color: #ed2590;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  align-self: flex-start;
+}

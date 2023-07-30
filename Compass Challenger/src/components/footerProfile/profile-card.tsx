@@ -1,6 +1,6 @@
 import Card from './card'
-import ProfilePicture from '../assets/profile-pictures/profile-pic-user.jpg'
-import './profile-card.css'
+import ProfilePicture from '../../assets/profile-pictures/profile-pic-user.jpg'
+import '../footerProfileCss/profile-card.css'
 
 const Profile: React.FC = () => {
     return (

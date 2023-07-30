@@ -1,5 +1,5 @@
 import React from 'react';
-import './userProfile.css';
+import '../footerProfileCss/userProfile.css';
 import UserInfo from './userInfo';
 import UserTags from './userTags';
 

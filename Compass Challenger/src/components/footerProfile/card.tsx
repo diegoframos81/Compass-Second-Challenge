@@ -1,7 +1,11 @@
 import { ReactNode } from "react";
-import "./card.css";
+import "../footerProfileCss/card.css";
 
-const Card: React.FC<{ children: ReactNode }> = (props) => {
+interface CardProps {
+  children: ReactNode;
+}
+
+const Card: React.FC<CardProps> = (props) => {
     return (
         <div className="card-outer">
             <div className="card-inner">
@@ -12,3 +16,4 @@ const Card: React.FC<{ children: ReactNode }> = (props) => {
 };
 
 export default Card;
+

@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import logo from '../assets/logo-orkut.svg';
-import userImage from '../assets/iuricode 1.svg';
-import './navbar.css'
-import searchIcon from '../assets/MagnifyingGlass.svg'
+import logo from '../../assets/logo-orkut.svg';
+import userImage from '../../assets/iuricode 1.svg';
+import '../headerProfileCss/navbar.css'
+import searchIcon from '../../assets/MagnifyingGlass.svg'
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();
