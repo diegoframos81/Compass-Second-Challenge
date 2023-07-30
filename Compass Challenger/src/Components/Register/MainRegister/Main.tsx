@@ -7,9 +7,11 @@ import ps_orkut from '/Orkut Project/Compass Challenger/src/assets/ps_orkut.svg'
 
 //CSS
 import Styles from '../MainRegister/Main.module.css'
-
+import Header from '../HeaderRegister/Header'
+import Footer from '../FooterRegister/Footer'
+import { useNavigate } from 'react-router-dom';
 const Main:React.FC = () => {
-  
+  const navigate = useNavigate();
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -17,6 +19,8 @@ const Main:React.FC = () => {
   };
 
   return (
+    <>
+    <Header />
       <main className={Styles.main}>
 
         <img src={login_image} alt="Orkut" />
@@ -53,9 +57,11 @@ const Main:React.FC = () => {
             <label htmlFor="confirmPassword"></label>
             <input type="password" placeholder="Confirmar senha" id="confirmPassword"/>
 
-            <input type="submit" value="Criar conta"/>
+            <input type="submit" onClick={() =>navigate("/Step2")} value="Criar conta"/>
         </form>
     </main>
+    <Footer />
+    </>
   )
 }
 

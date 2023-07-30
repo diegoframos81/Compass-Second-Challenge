@@ -6,6 +6,8 @@
     "disown-opener": "off",
     "compat-api/css": "off",
     "typescript-config/is-valid": "off",
-    "axe/forms": "off"
+    "axe/forms": "off",
+    "typescript-config/consistent-casing": "off",
+    "typescript-config/strict": "off"
   }
 }

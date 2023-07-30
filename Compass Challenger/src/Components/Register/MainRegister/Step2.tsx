@@ -1,17 +1,25 @@
 import React from 'react'
 
+import { useNavigate } from 'react-router-dom';
+
 //images
-import login_image from '/Orkut Project/Compass Challenger/src/assets/imageform.svg'
-import bg from '/Orkut Project/Compass Challenger/src/assets/bg.svg'
-import ps_orkut from '/Orkut Project/Compass Challenger/src/assets/ps_orkut.svg'
-import profile from '/Orkut Project/Compass Challenger/src/assets/logo-orkut.svg'
+import login_image from '../../../assets/login-image.svg'
+import bg from '../../../assets/bg.svg'
+import ps_orkut from '../../../assets/ps_orkut.svg'
+import profile from '../../../assets/profile.png'
 
 //CSS
 import Styles from '../MainRegister/Main.module.css'
+import Footer from '../FooterRegister/Footer'
+import Header from '../HeaderRegister/Header'
 
 const Step2:React.FC = () => {
 
+  const navigate = useNavigate();
+
   return (
+    <>
+    <Header />
     <main className={Styles.main}>
 
       <img src={login_image} alt="Orkut" />
@@ -37,17 +45,18 @@ const Step2:React.FC = () => {
         <div className={Styles.form2_container}>
           <div>
             <label htmlFor="selfDescription">Quem sou eu: </label>
-            <textarea name="interests" rows={3}></textarea>
+            <input type="text" name="autoDescription"/>
           </div>
 
           <div>
             <label htmlFor="interests">Interesses no Orkut: </label>
-            <textarea name="interests" rows={3}></textarea>
+            <input type="text" name="interests"/>
           </div>
 
           <div>
             <label htmlFor="gender">Gênero: </label>
             <select id="gender">
+              <option defaultValue={""}></option>
               <option value="male">Masculino</option>
               <option value="female">Feminino</option>
               <option value="other">Outro</option>
@@ -57,6 +66,7 @@ const Step2:React.FC = () => {
           <div>
             <label htmlFor="relationship"> Status de relacionamento: </label>
             <select id="relationship">
+              <option defaultValue={""}></option>
               <option value="male">Solteiro</option>
               <option value="female">Namorando</option>
               <option value="other">Casado</option>
@@ -67,6 +77,7 @@ const Step2:React.FC = () => {
           <div>
             <label htmlFor="children">Filhos: </label>
             <select id="children">
+              <option defaultValue={""}></option>
               <option value="zero">0</option>
               <option value="one">1</option>
               <option value="two">2</option>
@@ -78,6 +89,7 @@ const Step2:React.FC = () => {
           <div>
             <label htmlFor="smoke">Hábitos de fumo: </label>
             <select id="smoke">
+              <option defaultValue={""}></option>
               <option value="yes">Sim</option>
               <option value="no">Não</option>
             </select>
@@ -86,6 +98,7 @@ const Step2:React.FC = () => {
           <div>
             <label htmlFor="drink">Bebida: </label>
             <select id="drink">
+              <option defaultValue={""}></option>
               <option value="zero">Sim</option>
               <option value="one">Não</option>
             </select>
@@ -93,18 +106,21 @@ const Step2:React.FC = () => {
 
           <div>
             <label htmlFor="favoritsMusics"> Músicas favoritas: </label>
-            <input type="text" />
+            <input type="text" name="favoritsMusics"/>
           </div>
 
           <div>
             <label htmlFor="favoritsMovies"> Filmes favoritos: </label>
-            <input type="text" />
+            <input type="text" name="favoritsMovies"/>
           </div>
         </div>
-
-        <input type="submit" value="Finalizar Cadastro"/>
+        <div className={Styles.form2_submit}>
+          <input type="submit" onClick={() =>navigate("/")} value="Finalizar Cadastro"/>
+        </div>
       </form>
     </main>
+    <Footer />
+    </>
   )
 }
 
