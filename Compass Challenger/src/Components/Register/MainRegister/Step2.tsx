@@ -3,7 +3,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
 //images
-import login_image from '../../../assets/login-image.svg'
+import login_image from '../../../assets/imageform.svg'
 import bg from '../../../assets/bg.svg'
 import ps_orkut from '../../../assets/ps_orkut.svg'
 import profile from '../../../assets/profile.png'
