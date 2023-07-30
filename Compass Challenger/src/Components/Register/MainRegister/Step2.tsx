@@ -1,10 +1,17 @@
 import React from 'react'
 
 //images
+<<<<<<< Updated upstream
 import login_image from '/Orkut Project/Compass Challenger/src/assets/imageform.svg'
 import bg from '/Orkut Project/Compass Challenger/src/assets/bg.svg'
 import ps_orkut from '/Orkut Project/Compass Challenger/src/assets/ps_orkut.svg'
 import profile from '/Orkut Project/Compass Challenger/src/assets/logo-orkut.svg'
+=======
+import login_image from '../../../assets/imageform.svg'
+import bg from '../../../assets/bg.svg'
+import ps_orkut from '../../../assets/ps_orkut.svg'
+import profile from '../../../assets/profile.png'
+>>>>>>> Stashed changes
 
 //CSS
 import Styles from '../MainRegister/Main.module.css'
