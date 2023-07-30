@@ -14,10 +14,12 @@ const Step2:React.FC = () => {
   return (
     <main className={Styles.main}>
 
-      <img src={login_image} alt="Orkut" />
-      <div className={Styles.bg_image}>
-        <img src={bg} alt="Background" />
-      </div>
+        <div className={Styles.login_banner}>
+          <img src={login_image} alt="loginBanner" />
+        </div>
+        <div className={Styles.bg_image}>
+          <img src={bg} alt="Background" />
+        </div>
 
       <p>Conecta-se aos seus amigos e familiares <br />
       usando recados e mensagens instantâneas</p>
@@ -25,7 +27,7 @@ const Step2:React.FC = () => {
       <form className={Styles.form2}>
         <div className={Styles.form_header}>
           <img src={ps_orkut} alt="ps_orkut" />
-          <h2>Complete seu cadatro...</h2>
+          <h2>Complete seu cadatro!</h2>
         </div>
         
         <div className={Styles.form2_profile_picture}>

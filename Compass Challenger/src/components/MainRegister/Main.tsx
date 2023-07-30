@@ -25,7 +25,9 @@ const Main:React.FC = () => {
   return (
       <main className={Styles.main}>
 
-        <img src={login_image} alt="Orkut" />
+        <div className={Styles.login_banner}>
+          <img src={login_image} alt="loginBanner" />
+        </div>
         <div className={Styles.bg_image}>
           <img src={bg} alt="Background" />
         </div>
@@ -38,15 +40,14 @@ const Main:React.FC = () => {
             <img src={ps_orkut} alt="ps_orkut" />
             <h2>Criar conta</h2>
 
-            <div className={Styles.nameInput}>
-              <input 
-                type="text" 
-                placeholder="Nome" 
-                id="name" 
-                minLength={2}
-                required
-              />
-            </div>
+            <input 
+              type="text" 
+              placeholder="Nome" 
+              id="name" 
+              minLength={2}
+              required
+            />
+
 
             <input 
               type="text" 
@@ -55,15 +56,13 @@ const Main:React.FC = () => {
               required
             />
 
-            <div className={Styles.form1_birthdate}>
-              <input 
-                type={inputType} 
-                onFocus={handleFocus} 
-                placeholder="Data de nascimento" 
-                id="birthDate"
-                required
-              />
-            </div>
+            <input 
+              type={inputType} 
+              onFocus={handleFocus} 
+              placeholder="Data de nascimento" 
+              id="birthDate"
+              required
+            />
 
             <input 
               type="text" 

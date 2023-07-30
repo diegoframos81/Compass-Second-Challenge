@@ -1,3 +1,5 @@
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
 // CSS
 import './App.css'
 
@@ -7,7 +9,6 @@ import Footer from './components/FooterRegister/Footer'
 import Main from './components/MainRegister/Main'
 import Step2 from './components/MainRegister/Step2'
 
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
 

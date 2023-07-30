@@ -3,17 +3,34 @@
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    height: px;
     flex-shrink: 0;
     background: #FDFEFF;
+    height: 10%;
 }
 
 .footer p {
     color: #ED2590;
     font-family: SF Pro Display;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    margin-top: 15px;
+    line-height: 1.5rem; 
+    font-weight: 400;
+    padding-top: 0.4rem;
+}
+
+@media(max-width: 450px) {
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        padding: 0.5rem;
+    }
+
+    .footer p {
+        text-align: center;
+        font-size: 0.85rem;
+    }
 }
