@@ -4,9 +4,15 @@ import { HeaderLogin } from "../HeaderLogin/HeaderLogin"
 import { FooterLogin } from "../FooterLogin/FooterLogin"
 
 
+<<<<<<< HEAD
 import ImageLogin from '../../../assets/imageform.svg'
 import LogoIcon from "../../../assets/ps_orkut.svg"
 import Bg from "../../../assets/bg.svg"
+=======
+import ImageLogin from '../../../../src/assets/imageform.svg'
+import LogoIcon from "../../../../src/assets/ps_orkut.svg"
+import Bg from "../../../../src/assets/bg.svg"
+>>>>>>> c788251aa0fff3f498e4a6e255f1cc6a7ca2132f
 import Style from "../MainLogin/index.module.css"
 import { useNavigate } from 'react-router-dom';
 

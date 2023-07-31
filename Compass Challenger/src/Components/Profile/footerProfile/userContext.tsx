@@ -18,20 +18,20 @@ interface UserDataType {
 }
 
 const defaultUser: UserDataType = {
-  Relacionamento: '',
-  Aniversário: '',
-  Idade: '',
-  Interesses_no_Orkut: '',
-  Quem_sou_eu: '',
-  Filhos: '',
-  Sexo: '',
-  Fuma: '',
-  Bebe: '',
-  Localização: '',
-  País: '',
-  Cidade_natal: '',
-  Músicas: '',
-  Filmes: '',
+  Relacionamento: 'Solteiro',
+  Aniversário: '21 de julho',
+  Idade: '22 anos',
+  Interesses_no_Orkut: 'Amizade',
+  Quem_sou_eu: 'Programador',
+  Filhos: 'Não',
+  Sexo: 'Masculino',
+  Fuma: 'Não',
+  Bebe: 'Depende do dia',
+  Localização: 'Guarantã',
+  País: 'Brasil',
+  Cidade_natal: 'São Paulo',
+  Músicas: 'Trap  Rap  Indie  Rock',
+  Filmes: 'A rede social  Meu amigo Totoro  O castelo animado  Princesa Mononoke',
 };
 
 export interface UserContextType {

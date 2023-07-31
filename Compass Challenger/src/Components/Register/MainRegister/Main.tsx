@@ -1,9 +1,15 @@
 import React, {FormEvent } from 'react'
 
 //images
+<<<<<<< HEAD
 import login_image from '../../../assets/imageform.svg'
 import bg from '../../../assets/bg.svg'
 import ps_orkut from '../../../assets/ps_orkut.svg'
+=======
+import login_image from '../../../../src/assets/imageform.svg'
+import bg from '../../../../src/assets/bg.svg'
+import ps_orkut from '../../../../src/assets/ps_orkut.svg'
+>>>>>>> c788251aa0fff3f498e4a6e255f1cc6a7ca2132f
 
 //CSS
 import Styles from '../MainRegister/Main.module.css'

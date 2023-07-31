@@ -9,7 +9,7 @@ interface UserInfoProps {
 
 const UserInfoField: React.FC <UserInfoProps> = ({ label, value }) => {
   const isMoviesOrMusic = label === 'Músicas' || label === 'Filmes';
-  const words = value.split(' ').map((word, index) => ({
+  const words = value.split('  ').map((word, index) => ({
     value: word,
     hasLeadingSpace: index !== 0,
   }));
