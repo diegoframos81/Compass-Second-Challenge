@@ -8,11 +8,11 @@ const Header = () => {
   return (
     <header>
         <nav className={Styles.nav}>
-            <img src={logo} alt="Orkut" />
-            <ul>
-                <li>Sobre o Orkut</li>
-                <li>Centro de segurança</li>
-            </ul>
+          <img src={logo} alt="Orkut" />
+          <ul>
+              <li>Sobre o Orkut</li>
+              <li>Centro de segurança</li>
+          </ul>
         </nav>
     </header>
   )

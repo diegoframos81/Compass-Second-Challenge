@@ -356,7 +356,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-right: 4.375rem;
+        margin-right: 2rem;
         padding-left: 0.5rem;
     }
     
@@ -397,7 +397,7 @@
     
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
 
     .login_banner, .bg_image, .main p {
         display: none;
@@ -414,7 +414,7 @@
         flex-shrink: 0;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5rem; 
+        margin-top: 10rem; 
         margin-bottom: 2rem; 
     }
 
@@ -452,7 +452,7 @@
         flex-shrink: 0;
         border-radius: 1rem;
         background: #FDFEFF;
-        margin-top: 3.125rem;
+        margin-top: 10rem;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 2rem; 
@@ -477,12 +477,98 @@
         margin-top: 0.938rem;
     }
 
+
     .form2_submit input {
         width: 90%; 
         font-size: 1.2rem;
         justify-content: center;
         align-items: center;
         gap: 0.625rem;
-        margin-top: 1.875rem;
+        margin-bottom: 1.5rem;
+    }
+} 
+
+/* @media (max-width: 1024px) {
+
+    .main {
+        width: auto;
+        height: auto;
+    }
+    .form1 {
+        width: 80%;
+        height: max-content;
+        flex-shrink: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .form1 img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .form1 h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .form1 input {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        width: 80%;
+        height: 3rem;
+    }
+
+    .form1 input[type='submit'] {
+        display: flex;
+        width: 90%;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .form2 {
+        width: 80%;
+        height: max-content;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: #FDFEFF;
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+
+    .form2 img {
+        width: 2.125rem;
+        height: 2.125rem;
+        flex-shrink: 0;
+        margin: 0;
+        margin-top: 1.563rem;
+    }
+
+    .form2 h2 {
+        text-align: center;
+        color: #ED2590;
+        font-family: SF Pro Display;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 0.938rem;
+    }
+
+    .form2_submit input {
+        width: 90%;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        margin-bottom: 1.5rem;
     }
 } */

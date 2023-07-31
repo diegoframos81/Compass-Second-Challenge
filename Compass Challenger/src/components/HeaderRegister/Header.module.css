@@ -14,7 +14,6 @@
 
 .nav ul{
     display: flex;
-    flex-direction: row;
     list-style-type: none;
     color: #4B4B4B;
     font-family: SF Pro Display;
@@ -29,12 +28,12 @@
 @media(max-width: 450px){
 
     .nav {
-        position: fixed;
-        background-color: white;
-        width: 100%;
         display: flex; 
         justify-content: center; 
         align-items: center;
+        position: fixed;
+        background-color: white;
+        width: 100%;
     }
 
     .nav img {
@@ -48,3 +47,49 @@
         display: none;
     }
 }
+
+@media (max-width: 768px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        position: fixed;
+        width: 100%;        
+    }
+
+    .nav img {
+        width: 5rem;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul {
+        display: none;
+    }
+}
+
+/* @media (max-width: 1024px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+    }
+
+    .nav img {
+        width: 5rem;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 1.5rem;
+    }
+} */

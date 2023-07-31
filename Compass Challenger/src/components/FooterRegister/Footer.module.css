@@ -34,3 +34,16 @@
         font-size: 0.85rem;
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+        height: auto;
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+}
