@@ -43,7 +43,7 @@ export const MainLogin: React.FC = (): ReactElement => {
                         <label className={Style.spanCheck} htmlFor="remember-password">Lembrar minha senha</label>
                     </div>
 
-                    <button className={Style.buttonFirstChild}>Entrar na conta</button>
+                    <button onClick={() =>navigate("/App")} className={Style.buttonFirstChild} >Entrar na conta</button>
                     <button onClick={() =>navigate("/Register")} className={Style.buttonSecondChild}>Criar uma conta</button>
                     <a className={Style.passwordForgot}>Esqueci a minha senha</a>
                 </form>

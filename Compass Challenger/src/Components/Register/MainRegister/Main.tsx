@@ -10,9 +10,13 @@ import Styles from '../MainRegister/Main.module.css'
 import Header from '../HeaderRegister/Header'
 import Footer from '../FooterRegister/Footer'
 import { useNavigate } from 'react-router-dom';
+
 const Main:React.FC = () => {
+
   const navigate = useNavigate();
+
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    
     e.preventDefault();
 
     // window.location.href='/Step2'
