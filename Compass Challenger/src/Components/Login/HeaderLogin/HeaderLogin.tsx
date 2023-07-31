@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import LogoOrkut from "../../../assets/logo-orkut.svg"
-=======
-import LogoOrkut from "../../../../src/assets/logo-orkut.svg"
->>>>>>> c788251aa0fff3f498e4a6e255f1cc6a7ca2132f
 
 import Style from "../HeaderLogin/index.module.css"
 
