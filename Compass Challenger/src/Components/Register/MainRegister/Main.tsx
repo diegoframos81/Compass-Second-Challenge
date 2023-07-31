@@ -1,9 +1,9 @@
 import React, {FormEvent } from 'react'
 
 //images
-import login_image from '/Orkut Project/Compass Challenger/src/assets/imageform.svg'
-import bg from '/Orkut Project/Compass Challenger/src/assets/bg.svg'
-import ps_orkut from '/Orkut Project/Compass Challenger/src/assets/ps_orkut.svg'
+import login_image from '../../../../src/assets/imageform.svg'
+import bg from '../../../../src/assets/bg.svg'
+import ps_orkut from '../../../../src/assets/ps_orkut.svg'
 
 //CSS
 import Styles from '../MainRegister/Main.module.css'
