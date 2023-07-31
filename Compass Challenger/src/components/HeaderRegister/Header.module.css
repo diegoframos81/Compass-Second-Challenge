@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     align-items: center;
-    max-width: 100%;
+    width: 120rem;
     height: 5.75rem;
     flex-shrink: 0;
 }
@@ -68,28 +68,3 @@
         display: none;
     }
 }
-
-/* @media (max-width: 1024px) {
-    .nav {
-        display: flex;
-        justify-content: center;
-        background-color: white;
-        position: fixed;
-        width: 100%;
-    }
-
-    .nav img {
-        width: 5rem;
-        height: auto;
-        margin: 0;
-        padding: 0;
-    }
-
-    .nav ul {
-        display: flex;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        gap: 1.5rem;
-    }
-} */
