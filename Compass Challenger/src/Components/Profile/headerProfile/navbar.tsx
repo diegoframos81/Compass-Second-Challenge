@@ -4,6 +4,7 @@ import logo from '../../../assets/logo-orkut.svg';
 import userImage from '../../../assets/iuricode 1.svg';
 import '../headerProfileCss/navbar.css'
 import searchIcon from '../../../assets/MagnifyingGlass.svg'
+import  '../../../AppProfile.css'
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();

@@ -1,4 +1,4 @@
-import LogoOrkut from "/Orkut Project/Compass Challenger/src/assets/logo-orkut.svg"
+import LogoOrkut from "../../../assets/logo-orkut.svg"
 
 import Style from "../HeaderLogin/index.module.css"
 

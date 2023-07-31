@@ -105,18 +105,30 @@
     
 }
 
-.form .inputCheckbox {
-    background: #eff3f8;
-    
-    cursor: pointer;
-    border-radius: 20%;
-    border-style: solid;
-    border-color: #dcdcdc;
-    border-width: 1px;
-    width: 20px;
-    height: 20px;
-    margin-top: 4px;
+.passwordCheck input {
+    all: unset;
+    border-style: solid transparent;
+    border-radius: 6px;
 
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-left: 3px;
+
+    border-style: solid transparent;
+    border-radius: 6px;
+    outline: 1px solid #DCDCDC;
+    outline-offset: 3px;
+    box-shadow: 0px 0px 0px 3px var(--dark-25);
+}
+
+.passwordCheck input:checked {
+    background-color: #ED2590;
+    cursor: pointer;
+}
+
+.passwordCheck label {
+    padding-left: 1rem;
+    color: #868686;
 }
 
 
@@ -163,4 +175,163 @@
 .form input::placeholder {
     padding: 15px;
 }
+
+@media (max-width: 450px){
+
+    .ImageLogin,.bg_image, .Bg, .main p, .main img {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        height: 45rem
+    }
+
+    .form {
+        width: 80%;
+        height: 35rem;
+        flex-shrink: 0;
+        
+        margin-top: 7rem;
+    }
+
+    .form img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .form h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .form input {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        width: 80%;
+        height: 3rem;
+    }
+    
+    
+    .form .buttonFirstChild  {
+        width: 80%;
+        height: 3em;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #ED2590;
+        color: #FFF;
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 22px;
+        border: none;
+    }
+    
+    .form .buttonSecondChild {
+        width: 80%;
+        height: 3em;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #EFF3F8;
+        color: #ED2590;
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 22px;
+        border: none;
+    }
+
+.form .passwordCheck input {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 3rem;
+    
+    }
+}
+
+@media (max-width: 768px) { 
+
+    .login_banner, .bg_image, .main p {
+        display: none;
+    }
+
+    .main {
+        width: auto;
+        height: auto;
+    }
+
+    .form {
+        width: 80%;
+        height: max-content;
+        flex-shrink: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem; 
+        margin-bottom: 2rem; 
+    }
+
+    .form img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .form h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .form input {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        width: 80%;
+        height: 3rem;
+    }
+
+
+    .form .buttonFirstChild  {
+        width: 80%;
+        height: 3em;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #ED2590;
+        color: #FFF;
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 22px;
+        border: none;
+    }
+
+    .form .buttonSecondChild {
+        width: 80%;
+        height: 3em;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #EFF3F8;
+        color: #ED2590;
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 22px;
+        border: none;
+    }
+
+    .form .passwordCheck input {
+        width: 1rem;
+        height: 1rem;
+        margin-left: 3rem;
+        
+        }
+}
+
 

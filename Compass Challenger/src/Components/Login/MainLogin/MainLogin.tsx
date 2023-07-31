@@ -4,9 +4,9 @@ import { HeaderLogin } from "../HeaderLogin/HeaderLogin"
 import { FooterLogin } from "../FooterLogin/FooterLogin"
 
 
-import ImageLogin from '/Orkut Project/Compass Challenger/src/assets/imageform.svg'
-import LogoIcon from "/Orkut Project/Compass Challenger/src/assets/ps_orkut.svg"
-import Bg from "/Orkut Project/Compass Challenger/src/assets/bg.svg"
+import ImageLogin from '../../../assets/imageform.svg'
+import LogoIcon from "../../../assets/ps_orkut.svg"
+import Bg from "../../../assets/bg.svg"
 import Style from "../MainLogin/index.module.css"
 import { useNavigate } from 'react-router-dom';
 
@@ -49,7 +49,7 @@ export const MainLogin: React.FC = (): ReactElement => {
                 </form>
             </main>
             <FooterLogin />
-            {/* Router */}
+            
 
             
         </>

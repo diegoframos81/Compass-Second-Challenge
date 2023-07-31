@@ -1,6 +1,6 @@
 
 import './App'
-import "../AppProfile.css";
+
 
 import {  Route, Routes } from "react-router-dom"
 

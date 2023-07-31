@@ -19,6 +19,7 @@ const EditProfileLayout: React.FC = () => {
 
     if(windowWidth < 1280) {
       
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       isMobile = true;
     } else {
       isMobile = false;
